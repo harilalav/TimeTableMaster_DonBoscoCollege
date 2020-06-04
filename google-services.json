@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377653872968",
+    "firebase_url": "https://db-timetable-88401.firebaseio.com",
+    "project_id": "db-timetable-88401",
+    "storage_bucket": "db-timetable-88401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377653872968:android:06def22426c100864a8b7d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377653872968-tlgtmn4s8md7j3rnkorf415d0mmnjvsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmZNGvz-_SO6YNxgAxv_on9NRGTHIAYhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377653872968-tlgtmn4s8md7j3rnkorf415d0mmnjvsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

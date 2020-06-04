@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ArtsDepActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="39dp"
+            android:gravity="center"
+            android:text="@string/choose_class_and_sem"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/bba"
+                android:textColor="@color/pinkish"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner_bba"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/bcom_ca"
+                android:textColor="@color/pinkish"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner_bcom_ca"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/bcom_finance"
+                android:textColor="@color/pinkish"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner_bc_fin"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/mba"
+                android:textColor="@color/pinkish"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner_mba"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
